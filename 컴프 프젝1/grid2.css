@@ -1,0 +1,13 @@
+#grid{
+ border: 3px gray solid;
+ display: grid;
+ grid-template-columns:1fr 1fr 1fr
+}
+div{
+ border: 1px blue solid;
+}
+@media(max-width:800px) {
+ #grid {
+   display: block;
+ }
+}
